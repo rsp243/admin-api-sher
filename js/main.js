@@ -1,6 +1,6 @@
 $.ajax({
 	type: 'GET',
-	url: "https://back-end-sher.herokuapp.com/api/v1/questions/?format=json",
+	url: "https://pokeapi.co/api/v2/pokemon/ditto",
 	dataType: 'json',  	
   	success: function(data){
     	alert("Прибыли данные: " + data);
